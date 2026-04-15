@@ -4,3 +4,6 @@ node_modules
 tsconfig.tsbuildinfo
 planner-state.json
 .venv/
+CLAUDE.md
+FlashPro Release Planner Test Strategy/
+planner-versions/
