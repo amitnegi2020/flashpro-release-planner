@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: false,
+  turbopack: {},
   webpack: (config, { isServer }) => {
     // jsPDF references canvg/html2canvas at module level but we load them
     // dynamically (import()) at runtime so they are never needed server-side.
